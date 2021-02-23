@@ -67,7 +67,6 @@ body {
                 height: 2em;
                 background-color: rgba(47, 45, 46, 0.4);
                 position: absolute;
-                z-index: 3;
                 color: #fff;
                 padding-left: 10px;
                 box-sizing: border-box;
