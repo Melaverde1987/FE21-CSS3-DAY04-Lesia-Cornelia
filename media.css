@@ -1,4 +1,4 @@
-@media only screen and (max-width : 1200px) {
+@media only screen and (min-width:801px) and (max-width : 1200px) {
     .container .item.title {
         grid-column: 1 / span 3;
     }
@@ -9,7 +9,7 @@
     }
 }
 
-@media only screen and (max-width : 800px) {
+@media only screen   and (min-width:481px) and (max-width : 800px) {
     .container .item.title {
         grid-column: 1 / span 2;
     }
@@ -28,15 +28,16 @@
     }
 }
 
-@media only screen and (max-width : 480px) {
+@media only screen and (min-width:100px) and (max-width : 480px) {
     .container .item.title {
         grid-column: 1fr;
     }
 
 	.container {
         grid-template-columns: 1fr;
-        grid-template-rows: 10% 20% 20% 20% 20% 20% 20%;
+        grid-template-rows: 10% 20% 20% 20% 20% 20% 15%;
         grid-column-gap: 0;
     }
 
 }
+
